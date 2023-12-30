@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+### 🌱 my skills
+<img alt="my skills" src="https://skillicons.dev/icons?theme=light&perline=8&i=js,html,css,git,github,githubactions" />
+
 <!--
 **Git-Yuya/Git-Yuya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
