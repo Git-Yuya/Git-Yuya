@@ -10,7 +10,7 @@
 - ⚡ Fun fact: ...
 
 ### 🌱 my skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=light&perline=8&i=py,pytorch,tensorflow, django,flask,matlab,php,sqlite,postgres,qt,c,cp,js,html,css,bootstrap,visualstudio,vscode,atom,powershell,discode,latex,md,linux,docker,git,github/>
+<img alt="my skills" src="https://skillicons.dev/icons?theme=light&perline=8&i=py,pytorch,tensorflow, django,flask,matlab,php,sqlite,postgres,qt,c,cp,js,html,css,bootstrap,visualstudio,vscode,atom,powershell,discode,latex,md,linux,docker,git,github"/>
 
 ## 📈 Status
 <p align="left"> 
