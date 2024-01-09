@@ -9,20 +9,23 @@
 
 ## 📈 Status
 <p align="left"> 
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=ambient_gradient&bg_color=30,e96443,904e95&show_icons=true" alt="Top Langs" height="150px" />
-    <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=ambient_gradient&bg_color=30,e96443,904e95" alt="github stats" height="150px" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&show_icons=true" alt="Top Langs" height="150px" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="github stats" height="150px" />
     <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=flat&margin-w=5" alt="trophy" />
 </p>
 
 ## Projects
 <p align="left">
     <a href="https://github.com/Git-Yuya/olympics-aquatics">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=ambient_gradient&bg_color=30,e96443,904e95" alt="olympics-aquatics repo" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" />
     </a>
     <a href="https://github.com/Git-Yuya/gci">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=ambient_gradient&bg_color=30,e96443,904e95" alt="gci repo" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="gci repo" />
     </a>
     <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=ambient_gradient&bg_color=30,e96443,904e95" alt="cs50-intro-to-cs repo" />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" />
+    </a>
+    <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" />
     </a>
 </p>
