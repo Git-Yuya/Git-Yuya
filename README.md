@@ -11,9 +11,7 @@
 <p align="left"> 
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=ambient_gradient&bg_color=30,e96443,904e95&show_icons=true" alt="Top Langs" height="150px" />
     <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=ambient_gradient&bg_color=30,e96443,904e95" alt="github stats" height="150px" />
-    <a href="https://github.com/Git-Yuya/">
-        <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=flat&margin-w=5" alt="trophy" />
-    </a>
+    <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=flat&margin-w=5" alt="trophy" />
 </p>
 
 ## Projects
