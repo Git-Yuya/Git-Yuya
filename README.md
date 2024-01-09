@@ -13,5 +13,5 @@
     <img alt="github stats" height="150px" src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=tokyonight" />
 </p>
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Git-Yuya&margin-w=5)](https://github.com/Git-Yuya/)
+[![trophy](https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=tokyonight&margin-w=5)](https://github.com/Git-Yuya/)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=tokyonight)](https://github.com/Git-Yuya/gci)
