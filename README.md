@@ -25,7 +25,13 @@
     <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" />
     </a>
-    <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" />
+    <a href="https://github.com/Git-Yuya/file-ubiquitous-projection">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" />
+    </a>
+    <a href="https://github.com/Git-Yuya/scramble-crossing-simulation">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=scramble-crossing-simulation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="scramble-crossing-simulation repo" />
+    </a>
+    <a href="https://github.com/Git-Yuya/file-transfer-program">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" />
     </a>
 </p>
