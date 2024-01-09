@@ -1,10 +1,10 @@
-# Git-Yuya
+# 👨🏻‍🎓 Git-Yuya
 
-## Hi there 👋
+## 👋 Self Introduction
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ... deep learning, federated learning
 
-## 🌱 My Skills
+## 💻 My Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,tensorflow,django,flask,matlab,sqlite,postgres,qt,c,cpp,js,html,css,bootstrap,visualstudio,vscode,atom,latex,md,linux,docker,git,github"/>
 
 ## 📈 Status
@@ -14,7 +14,7 @@
     <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=flat&margin-w=5" alt="trophy" />
 </p>
 
-## Projects
+## 🚀 Projects
 <p align="left">
     <a href="https://github.com/Git-Yuya/olympics-aquatics">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" />
