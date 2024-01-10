@@ -1,10 +1,12 @@
 # 👨🏻‍🎓 Git-Yuya
 
 ## 👋 Self Introduction
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ... deep learning, federated learning
+- 🗾 I'm from Tokyo, Japan.
+- 🔭 I’m currently a university student.
+- 🌱 I'm interested in deep learning, federated learning, image processing and medical AI.
+- 🎈 I like running and swimming.
 
-## 💻 My Skills
+## 💻 Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,tensorflow,django,flask,matlab,sqlite,postgres,qt,c,cpp,js,html,css,bootstrap,visualstudio,vscode,atom,latex,md,linux,docker,git,github"/>
 
 ## 📈 Status
