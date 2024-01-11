@@ -36,7 +36,7 @@
     <a href="https://github.com/Git-Yuya/file-transfer-program">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=300 />
     </a>
-    <a href="https://github.com/Git-Yuya/swimming-competition-score-calculation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-competition-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-competition-score-calculation repo" width=300 />
+    <a href="https://github.com/Git-Yuya/swimming-comp-score-calculation">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=300 />
     </a>
 </p>
