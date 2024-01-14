@@ -3,7 +3,7 @@
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
 - 🔭 I’m currently a university student.
-- 🌱 I'm interested in deep learning, federated learning, image processing and medical AI.
+- 🌱 I'm interested in deep learning, federated learning and image processing.
 - 🎈 I like running and swimming.
 
 ## 💻 Skills
