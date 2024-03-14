@@ -46,4 +46,7 @@
     <a href="https://github.com/Git-Yuya/pedestrian-travel-time">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=300 />
     </a>
+    <a href="https://github.com/Git-Yuya/parallel-processing">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=300 />
+    </a>
 </p>
