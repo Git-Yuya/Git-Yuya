@@ -30,21 +30,21 @@
     </a>
     <a href="https://github.com/Git-Yuya/walking-time-prediction">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=walking-time-prediction&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="walking-time-prediction repo" width=300 />
+    </a>
+    <a href="https://github.com/Git-Yuya/pedestrian-travel-time">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=300 />
+    </a>
     <a href="https://github.com/Git-Yuya/scramble-crossing-simulation">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=scramble-crossing-simulation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="scramble-crossing-simulation repo" width=300 />
     </a>
     <a href="https://github.com/Git-Yuya/ubiquitous-projection">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" width=300 />
     </a>
-    <a href="https://github.com/Git-Yuya/file-transfer-program">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=300 />
-    </a>
     <a href="https://github.com/Git-Yuya/swimming-comp-score-calculation">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=300 />
     </a>
-    </a>
-    <a href="https://github.com/Git-Yuya/pedestrian-travel-time">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=300 />
+    <a href="https://github.com/Git-Yuya/file-transfer-program">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=300 />
     </a>
     <a href="https://github.com/Git-Yuya/parallel-processing">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=300 />
