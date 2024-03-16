@@ -11,8 +11,8 @@
 
 ## 📈 Status
 <p align="left"> 
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&show_icons=true" alt="Top Langs" height="150px" />
-    <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="github stats" height="150px" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&show_icons=true" alt="Top Langs" height="160px" />
+    <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="github stats" height="160px" />
     <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" />
 </p>
 
