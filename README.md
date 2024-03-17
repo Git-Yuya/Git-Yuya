@@ -19,36 +19,36 @@
 ## 🚀 Projects
 <p align="left">
     <a href="https://github.com/Git-Yuya/olympics-aquatics">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/gci">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="gci repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="gci repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/walking-time-prediction">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=walking-time-prediction&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="walking-time-prediction repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=walking-time-prediction&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="walking-time-prediction repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/pedestrian-travel-time">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/scramble-crossing-simulation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=scramble-crossing-simulation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="scramble-crossing-simulation repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=scramble-crossing-simulation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="scramble-crossing-simulation repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/ubiquitous-projection">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/swimming-comp-score-calculation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/file-transfer-program">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/parallel-processing">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/frequency-characteristic">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=frequency-characteristic&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="frequency-characteristic repo" width=300 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=frequency-characteristic&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="frequency-characteristic repo" width=330 />
     </a>
 </p>
