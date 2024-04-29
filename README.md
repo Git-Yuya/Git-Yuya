@@ -2,9 +2,9 @@
 
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
-- 🔭 I’m currently a university student.
+- 🔭 I’m currently a master's student.
 - 🌱 I'm interested in deep learning, generative AI and image processing.
-- 🎈 I like running and swimming.
+- 🎈 I like to exercise, especially swimming, running and strength training.
 
 ## 💻 Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,tensorflow,django,flask,matlab,sqlite,postgres,qt,c,cpp,js,html,css,bootstrap,visualstudio,vscode,atom,latex,md,linux,docker,git,github"/>
