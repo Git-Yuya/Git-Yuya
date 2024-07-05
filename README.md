@@ -54,7 +54,4 @@
     <a href="https://github.com/Git-Yuya/frequency-characteristic">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=frequency-characteristic&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="frequency-characteristic repo" width=330 />
     </a>
-    <a href="https://github.com/Git-Yuya/papers">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=papers&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="papers repo" width=330 />
-    </a>
 </p>
