@@ -3,7 +3,7 @@
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
 - 🔭 I’m currently a master's student.
-- 🌱 I'm interested in deep learning, generative AI and image processing.
+- 🌱 I'm interested in deep learning, federated learning and generative AI.
 - 🎈 I like to exercise, especially swimming, running and strength training.
 
 ## 💻 Skills
