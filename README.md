@@ -27,8 +27,8 @@
     <a href="https://github.com/Git-Yuya/rag-chatbot">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=rag-chatbot&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="rag-chatbot repo" width=330 />
     </a>
-    <a href="https://github.com/Git-Yuya/olympics-aquatics">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" width=330 />
+    <a href="https://github.com/Git-Yuya/tokyo-2020-olympics-aquatics">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=tokyo-2020-olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="tokyo-2020-olympics-aquatics repo" width=330 />
     </a>
     <a href="https://github.com/Git-Yuya/swimming-comp-score-calculation">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=330 />
