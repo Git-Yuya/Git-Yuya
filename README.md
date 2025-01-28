@@ -3,8 +3,8 @@
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
 - 🔭 I’m currently a master's student.
-- 🌱 I'm interested in deep learning, federated learning and generative AI.
-- 🎈 I like to exercise, especially swimming, running and strength training.
+- 🌱 I'm interested in machine learning, generative AI, and cloud services.
+- 🎈 I like working out, running and swimming.
 
 ## 💻 Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,js,html,css,bootstrap,latex,md,sqlite,postgres,mysql,visualstudio,vscode,anaconda,aws,azure,windows,powershell,ubuntu,linux,bash,docker,git,github,githubactions,notion"/>
