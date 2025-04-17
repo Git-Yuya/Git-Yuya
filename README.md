@@ -10,7 +10,13 @@
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,js,html,css,bootstrap,latex,md,sqlite,postgres,mysql,visualstudio,vscode,anaconda,aws,azure,windows,powershell,ubuntu,linux,bash,docker,git,github,githubactions,notion"/>
 
 ## 📈 Status
-<p align="left"> 
+<!--
+theme=tokyonight
+![profile-details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Git-Yuya&theme=blueberry)
+![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Git-Yuya&theme=blueberry)
+![repos-per-language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Git-Yuya&theme=blueberry)
+-->
+<p align="left">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&show_icons=true" alt="Top Langs" height="160px" />
     <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="github stats" height="160px" />
     <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" />
