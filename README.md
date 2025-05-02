@@ -33,6 +33,12 @@ theme=tokyonight
     <a href="https://github.com/Git-Yuya/dl-lecture-competition">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=dl-lecture-competition&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="dl-lecture-competition repo" width=330 />
     </a>
+    <a href="https://github.com/Git-Yuya/lecture-ai-engineering">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=lecture-ai-engineering&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="lecture-ai-engineering repo" width=330 />
+    </a>
+    <a href="https://github.com/Git-Yuya/simplechat">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=simplechat&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="simplechat repo" width=330 />
+    </a>
     <a href="https://github.com/Git-Yuya/rag-chatbot">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=rag-chatbot&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="rag-chatbot repo" width=330 />
     </a>
