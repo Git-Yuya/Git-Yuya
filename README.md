@@ -7,7 +7,7 @@
 - 🎈 I like working out, running and swimming.
 
 ## 💻 Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,html,css,bootstrap,latex,md,sqlite,postgres,mysql,visualstudio,vscode,anaconda,aws,azure,windows,powershell,ubuntu,linux,bash,docker,git,github,githubactions" width=576 />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,ts,react,vite,html,css,bootstrap,latex,md,sqlite,postgres,mysql,visualstudio,vscode,anaconda,aws,azure,windows,linux,docker,git,github,githubactions" width=576 />
 
 ## 📈 Status
 <!--
