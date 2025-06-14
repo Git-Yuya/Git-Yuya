@@ -63,13 +63,7 @@ theme=tokyonight
     <a href="https://github.com/Git-Yuya/ubiquitous-projection">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" width=288 />
     </a>
-    <a href="https://github.com/Git-Yuya/file-transfer-program">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=file-transfer-program&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="file-transfer-program repo" width=288 />
-    </a>
     <a href="https://github.com/Git-Yuya/parallel-processing">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=288 />
-    </a>
-    <a href="https://github.com/Git-Yuya/frequency-characteristic">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=frequency-characteristic&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="frequency-characteristic repo" width=288 />
     </a>
 </p>
