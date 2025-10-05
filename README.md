@@ -22,6 +22,7 @@ theme=tokyonight
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330" alt="Top Langs" height="200px" />
     <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" width=576 />
     <!-- <img src="https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" width=576 /> -->
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg"　alt="github profile contributions chart" width="576" />
 </p>
 
 ## 🚀 Projects
