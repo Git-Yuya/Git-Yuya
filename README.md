@@ -27,6 +27,9 @@ theme=tokyonight
 
 ## 🚀 Projects
 <p align="left">
+    <a href="https://github.com/Git-Yuya/Git-Yuya.github.io">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=Git-Yuya.github.io&description_lines_count=1&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="Git-Yuya.github.io repo" width=288 />
+    </a>
     <a href="https://github.com/Git-Yuya/atcoder">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=atcoder&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="atcoder repo" width=288 />
     </a>
