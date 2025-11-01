@@ -1,5 +1,5 @@
 # 👨🏻‍🎓 [Yuya Suda](https://git-yuya.github.io/)
-<img src="https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=323232&bg=000000&frame=ffffff&speed=100&comment=" alt="Welcome to my profile!" width=576 />
+<img src="https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=002642&l1=0077cc&l2=44aaff&l3=88ccff&l4=bbddff&bg=000000&frame=ffffff&speed=100&comment=" alt="Welcome to my profile!" width=576 />
 
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
@@ -11,12 +11,6 @@
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,ts,react,vite,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,visualstudio,vscode,aws,azure,windows,linux,docker,git,github,githubactions" width=576 />
 
 ## 📈 Status
-<!--
-theme=tokyonight
-![profile-details](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Git-Yuya&theme=blueberry)
-![stats](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Git-Yuya&theme=blueberry)
-![repos-per-language](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Git-Yuya&theme=blueberry)
--->
 <p align="left">
     <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420" alt="github stats" height="200px" />
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330" alt="Top Langs" height="200px" />
@@ -28,7 +22,7 @@ theme=tokyonight
 ## 🚀 Projects
 <p align="left">
     <a href="https://github.com/Git-Yuya/Git-Yuya.github.io">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=Git-Yuya.github.io&description_lines_count=1&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="Git-Yuya.github.io repo" width=288 />
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=Git-Yuya.github.io&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="Git-Yuya.github.io repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/atcoder">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=atcoder&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="atcoder repo" width=288 />
