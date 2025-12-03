@@ -1,5 +1,5 @@
 # 👨🏻‍🎓 [Yuya Suda](https://git-yuya.github.io/)
-<img src="https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=002642&l1=0077cc&l2=44aaff&l3=88ccff&l4=bbddff&bg=000000&frame=ffffff&speed=100&comment=" alt="Welcome to my profile!" width=576 />
+<img src="./profile-assets/typograssy.svg" alt="Welcome to my profile!" width=576 />
 
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
@@ -8,68 +8,68 @@
 - 🎈 I like working out, running and swimming.
 
 ## 💻 Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,ts,react,vite,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,visualstudio,vscode,aws,azure,windows,linux,docker,git,github,githubactions" width=576 />
+<img src="./profile-assets/skills.svg" alt="skills" width=576 />
 
 ## 📈 Status
 <p align="left">
-    <img src="https://github-readme-stats.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420" alt="github stats" height="200px" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330" alt="Top Langs" height="200px" />
+    <img src="./profile-assets/github-stats.svg" alt="github stats" height="200px" />
+    <img src="./profile-assets/top-langs.svg" alt="top langs" height="200px" />
     <!-- <img src="https://github-profile-trophy.vercel.app/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" width=576 /> -->
-    <img src="https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" alt="trophy" width=576 />
-    <img src="./profile-3d-contrib/profile-night-rainbow.svg"　alt="github profile contributions chart" width="576" />
+    <img src="./profile-assets/trophy.svg" alt="trophy" width=576 />
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg"　alt="profile 3d contribution graph" width="576" />
 </p>
 
 ## 🚀 Projects
 <p align="left">
     <a href="https://github.com/Git-Yuya/Git-Yuya.github.io">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=Git-Yuya.github.io&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="Git-Yuya.github.io repo" width=288 />
+        <img src="./profile-assets/pin-Git-Yuya.github.io.svg" alt="Git-Yuya.github.io repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/atcoder">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=atcoder&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="atcoder repo" width=288 />
+        <img src="./profile-assets/pin-atcoder.svg" alt="atcoder repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=cs50-intro-to-cs&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="cs50-intro-to-cs repo" width=288 />
+        <img src="./profile-assets/pin-cs50-intro-to-cs.svg" alt="cs50-intro-to-cs repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/gci">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=gci&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="gci repo" width=288 />
+        <img src="./profile-assets/pin-gci.svg" alt="gci repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/dl-lecture-competition">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=dl-lecture-competition&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="dl-lecture-competition repo" width=288 />
+        <img src="./profile-assets/pin-dl-lecture-competition.svg" alt="dl-lecture-competition repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/lecture-ai-engineering">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=lecture-ai-engineering&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="lecture-ai-engineering repo" width=288 />
+        <img src="./profile-assets/pin-lecture-ai-engineering.svg" alt="lecture-ai-engineering repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/lecture-survey-dashboard">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=lecture-survey-dashboard&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="lecture-survey-dashboard repo" width=288 />
+        <img src="./profile-assets/pin-lecture-survey-dashboard.svg" alt="lecture-survey-dashboard repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/simplechat">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=simplechat&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="simplechat repo" width=288 />
+        <img src="./profile-assets/pin-simplechat.svg" alt="simplechat repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/rag-chatbot">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=rag-chatbot&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="rag-chatbot repo" width=288 />
+        <img src="./profile-assets/pin-rag-chatbot.svg" alt="rag-chatbot repo" width=288 />
     </a>
     <!-- <a href="https://github.com/Git-Yuya/olympics-aquatics">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="olympics-aquatics repo" width=288 />
+        <img src="./profile-assets/pin-olympics-aquatics.svg" alt="olympics-aquatics repo" width=288 />
     </a> -->
     <a href="https://github.com/Git-Yuya/tokyo-2020-olympics-aquatics">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=tokyo-2020-olympics-aquatics&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="tokyo-2020-olympics-aquatics repo" width=288 />
+        <img src="./profile-assets/pin-tokyo-2020-olympics-aquatics.svg" alt="tokyo-2020-olympics-aquatics repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/swimming-comp-score-calculation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=swimming-comp-score-calculation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="swimming-comp-score-calculation repo" width=288 />
+        <img src="./profile-assets/pin-swimming-comp-score-calculation.svg" alt="swimming-comp-score-calculation repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/walking-time-prediction">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=walking-time-prediction&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="walking-time-prediction repo" width=288 />
+        <img src="./profile-assets/pin-walking-time-prediction.svg" alt="walking-time-prediction repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/pedestrian-travel-time">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=pedestrian-travel-time&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="pedestrian-travel-time repo" width=288 />
+        <img src="./profile-assets/pin-pedestrian-travel-time.svg" alt="pedestrian-travel-time repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/scramble-crossing-simulation">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=scramble-crossing-simulation&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="scramble-crossing-simulation repo" width=288 />
+        <img src="./profile-assets/pin-scramble-crossing-simulation.svg" alt="scramble-crossing-simulation repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/ubiquitous-projection">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=ubiquitous-projection&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="ubiquitous-projection repo" width=288 />
+        <img src="./profile-assets/pin-ubiquitous-projection.svg" alt="ubiquitous-projection repo" width=288 />
     </a>
     <a href="https://github.com/Git-Yuya/parallel-processing">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=Git-Yuya&repo=parallel-processing&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE" alt="parallel-processing repo" width=288 />
+        <img src="./profile-assets/pin-parallel-processing.svg" alt="parallel-processing repo" width=288 />
     </a>
 </p>
