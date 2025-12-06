@@ -1,19 +1,302 @@
-<!doctype html><html lang=en><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Authentication Required</title><script type=text/llms.txt>
-## Note to agents accessing this page:
 
-This page requires authentication to access. Automated agents should use a Vercel authentication bypass token to access this page.
+      <svg
+        width="437"
+        height="295"
+        viewBox="0 0 437 295"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId">Yuya Suda's GitHub Stats, Rank: B+</title>
+        <desc id="descId">Total Stars Earned: 19, Total Commits  (last year) : 375, Total PRs: 83, Total PRs Merged: 82, Total PRs Reviewed: 5, Total Issues: 36, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 5</desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #ffffff;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    .stat {
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #ffffff;
+    }
+    @supports(-moz-appearance: auto) {
+      /* Selector detects Firefox */
+      .stat { font-size:12px; }
+    }
+    .stagger {
+      opacity: 0;
+      animation: fadeInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-text {
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #ffffff;
+      animation: scaleInAnimation 0.3s ease-in-out forwards;
+    }
+    .rank-percentile-header {
+      font-size: 14px;
+    }
+    .rank-percentile-text {
+      font-size: 16px;
+    }
+    
+    .not_bold { font-weight: 400 }
+    .bold { font-weight: 700 }
+    .icon {
+      fill: #ffffff;
+      display: block;
+    }
 
-The easiest way to get a token is using the get_access_to_vercel_url or web_fetch_vercel_url functions of the Vercel MCP server 
-at https://mcp.vercel.com (Docs at https://vercel.com/docs/mcp/vercel-mcp).
+    .rank-circle-rim {
+      stroke: #ffffff;
+      fill: none;
+      stroke-width: 6;
+      opacity: 0.2;
+    }
+    .rank-circle {
+      stroke: #ffffff;
+      stroke-dasharray: 250;
+      fill: none;
+      stroke-width: 6;
+      stroke-linecap: round;
+      opacity: 0.8;
+      transform-origin: -10px 8px;
+      transform: rotate(-90deg);
+      animation: rankAnimation 1s forwards ease-in-out;
+    }
+    
+    @keyframes rankAnimation {
+      from {
+        stroke-dashoffset: 251.32741228718345;
+      }
+      to {
+        stroke-dashoffset: 119.14080150507695;
+      }
+    }
+  
+  
 
-Alternatively, this URL documents how to use the bypass token: https://vercel.com/docs/deployment-protection/methods-to-bypass-deployment-protection/protection-bypass-automation
-You need to prompt the user to provide the bypass token to access this page. The URL above also explains how the user can
-access the bypass token. Then you can calculate a URL of the following form and successfully access it: `https://current-domain/current-pathname?x-vercel-set-bypass-cookie=true&x-vercel-protection-bypass=$bypass_token`.
-  </script><style>/*!normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css*/html{line-height:1.15;-webkit-text-size-adjust:100%;height:-webkit-fill-available}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:#0000}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}*,*::before,*::after{box-sizing:border-box}body{--foreground-color: #000000;--background-color: #ffffff;--border-color: #eaeaea;--text-color: #444;--disabled-background: #fafafa;--error-color: #e00;--blue-color: #0057FF;--secondary-text: #666;--link-color: inherit;--spinner-color: #8F8F8F;--button-hover-color: #333;--ds-focus-ring: 0 0 0 2px var(--background-color), 0 0 0 6px var(--blue-color);--monospace-font: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;background:var(--background-color);color:var(--foreground-color);display:block;font-family:-apple-system,BlinkMacSystemFont,segoe ui,roboto,oxygen,ubuntu,cantarell,fira sans,droid sans,helvetica neue,sans-serif;height:100vh;height:-webkit-fill-available;margin:0;padding:0;-webkit-font-smoothing:antialiased}button,.link-button{appearance:none;-webkit-appearance:none;background:var(--foreground-color);border:none;border-radius:6px;color:var(--background-color);cursor:pointer;font-size:14px;font-weight:500;height:42px;outline:none;padding:0;transition:all .2s ease 0s;user-select:none;width:100%;display:flex;align-items:center;justify-content:center;text-decoration:none;gap:6px;padding:0 12px}button:hover,.link-button:hover{background-color:var(--button-hover-color);color:var(--background-color)}button:focus-visible,.link-button:focus-visible{box-shadow:var(--ds-focus-ring);outline:none;border:0}button:disabled{background:var(--disabled-background);color:#0000;cursor:not-allowed}h1{color:var(--foreground-color);font-size:24px;font-style:normal;font-weight:600;line-height:32px;letter-spacing:-.5px;margin:0;margin-bottom:20px;text-align:center}hr{border:none;border-top:1px solid var(--border-color);margin:0}input{appearance:none;-webkit-appearance:none;border:1px solid var(--border-color);border-radius:6px;background:var(--background-color);caret-color:var(--foreground-color);color:var(--foreground-color);font-size:14px;height:42px;outline:0;padding:0 16px;transition:border .2s ease 0s,color .2s ease 0s,box-shadow .2s ease 0s}input:focus{border-color:var(--foreground-color);box-shadow:0 0 0 4px #b4b4b466!important}p{color:var(--text-color);font-size:16px;letter-spacing:-.163333px;line-height:24px;margin:0;text-align:center}.card{max-width:380px;width:100%;padding:32px;display:flex;flex-direction:column;margin-bottom:16px}.alert{display:none;margin-top:10px;margin-bottom:20px}.error input{color:var(--error-color);border-color:var(--error-color)}.error .alert{display:flex}.error .message{color:var(--error-color)}.footer{color:var(--secondary-text);font-size:13px;line-height:24px;font-family:var(--monospace-font);text-align:center;margin-top:auto;position:absolute;bottom:30px;width:100%}.footer a{color:var(--link-color);font-weight:500;text-decoration:none;display:flex;justify-content:center;align-items:center}.footer a:hover{text-decoration:underline}.message{font-size:14px;line-height:20px;margin-left:10px}.message b{font-weight:600}.or{display:none;margin-top:24px;margin-bottom:24px;font-family:var(--monospace-font);color:var(--secondary-text);position:relative}.or .badge{align-items:center;background:var(--background-color);display:flex;font-size:12px;font-weight:500;height:20px;justify-content:center;left:50%;line-height:16px;position:absolute;text-align:center;top:50%;transform:translate(-50%,-50%);width:32px}.password{display:none}.password-enabled .password{display:block}.password button{position:relative}.password button .spinner-wrapper{position:absolute;transform:(0.8)}.password-enabled.sso-enabled .or{display:block}.sso{display:none}.sso button .vercel{margin-right:10px;transform:translateY(1px)}.sso-enabled .sso{display:block}.sso.error .link-button{border:1px solid var(--error-color)}.auto-redirect{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:8px}.auto-redirect h1{margin:0}.auto-redirect-backup{font-size:14px;color:var(--secondary-text);animation:fade-in .2s .5s ease-out;animation-fill-mode:forwards;opacity:0}.auto-redirect-backup a{color:var(--foreground-color);display:inline}.spinner-wrapper{display:none;height:20px;width:20px;position:relative}.auto-redirect .spinner-wrapper{margin-bottom:16px}form.submitting .spinner-wrapper,.auto-redirect .spinner-wrapper{display:block}.spinner{position:relative;top:50%;left:50%;transform-origin:0 0;height:20px;width:20px}.spinner-bar{-webkit-animation:spinner-spin 1.2s linear infinite;animation:spinner-spin 1.2s linear infinite;background:var(--spinner-color);border-radius:5px;height:8%;left:-10%;position:absolute;top:-3.9%;width:24%}.spinner-bar:nth-child(1){animation-delay:-1.2s;transform:rotate(0.0001deg) translate(146%)}.spinner-bar:nth-child(2){animation-delay:-1.1s;transform:rotate(30deg) translate(146%)}.spinner-bar:nth-child(3){animation-delay:-1s;transform:rotate(60deg) translate(146%)}.spinner-bar:nth-child(4){animation-delay:-.9s;transform:rotate(90deg) translate(146%)}.spinner-bar:nth-child(5){animation-delay:-.8s;transform:rotate(120deg) translate(146%)}.spinner-bar:nth-child(6){animation-delay:-.7s;transform:rotate(150deg) translate(146%)}.spinner-bar:nth-child(7){animation-delay:-.6s;transform:rotate(180deg) translate(146%)}.spinner-bar:nth-child(8){animation-delay:-.5s;transform:rotate(210deg) translate(146%)}.spinner-bar:nth-child(9){animation-delay:-.4s;transform:rotate(240deg) translate(146%)}.spinner-bar:nth-child(10){animation-delay:-.3s;transform:rotate(270deg) translate(146%)}.spinner-bar:nth-child(11){animation-delay:-.2s;transform:rotate(300deg) translate(146%)}.spinner-bar:nth-child(12){animation-delay:-.1s;transform:rotate(330deg) translate(146%)}.check-icon{position:absolute;top:-1px;opacity:0;transform-origin:center center;--stroke-color: var(--background-color);--fill-color: var(--foreground-color)}.disappear{animation:.3s disappear ease-in;animation-fill-mode:forwards}.appear{animation:appear cubic-bezier(0.645,0.045,0.355,1) .3s;animation-fill-mode:forwards}@keyframes disappear{30%{opacity:1;transform:scale(1)}100%{opacity:0;transform:scale(0);filter:blur(2px)}}@keyframes appear{30%{opacity:0;transform:scale(0.6) rotate(0deg);filter:blur(2px)}100%{opacity:1;transform:scale(1);filter:blur(0px)}}@keyframes fade-in{from{opacity:0}to{opacity:1}}@keyframes spinner-spin{0%{opacity:1}100%{opacity:.15}}.error-icon{width:16px;height:16px;flex-shrink:0;margin-top:3px}.password-input-wrapper{position:relative;display:flex;align-items:center;justify-content:center;gap:10px}.password-input-wrapper input{flex:1}.password-input-wrapper button{flex-shrink:1}.page-wrapper{display:flex;flex-direction:column;min-height:100vh;min-height:-webkit-fill-available;align-items:center;justify-content:center}.content-wrapper{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%}.word-end-wrapper{display:inline-block;position:relative}.authenticated{position:absolute;left:0}[data-status=authenticated] .authenticating,[data-status=authenticating] .authenticated{user-select:none;pointer-events:none}.authenticating>span,.authenticated>span{transition:.2s cubic-bezier(0.645,0.045,0.355,1);transition-property:opacity,filter,transform;display:inline-block;will-change:transform,filter,opacity}.authenticating>span{transition-duration:.2s}.authenticated>span{transition-duration:.25s}[data-status=authenticated] .authenticating>span{transform:translateY(10px);filter:blur(2px);opacity:0}[data-status=authenticating] .authenticated>span{transform:translateY(-6px);filter:blur(2px);opacity:0}[data-status=authenticated] .authenticated>span:nth-child(1){transition-delay:.04s}[data-status=authenticated] .authenticated>span:nth-child(2){transition-delay:.078s}h1[data-status=authenticated]{transform:translateX(2.5px);transition-property:transform,opacity;transition-duration:.22s;transition-timing-function:ease-in-out;transition-delay:.03s}@media(prefers-reduced-motion:reduce){.appear,.disappear{animation-duration:.001ms!important}*{transition:none!important}}@media(prefers-color-scheme:dark){body{--foreground-color: #fff;--background-color: #030303;--border-color: #333;--text-color: #ddd;--disabled-background: #2c2c2c;--disabled-border: #0a0a0a;--error-color: #e00;--secondary-text: #888888;--link-color: inherit;--button-hover-color: #aaa}}</style><body class=" sso-enabled"><div class=page-wrapper><div class=content-wrapper><div id=card class="card auto-vercel-auth-redirect"><div class=container><noscript><meta http-equiv=refresh content="1; URL=https://vercel.com/sso-api?url=https%3A%2F%2Fgithub-readme-stats-yuyas-projects-f420a9eb.vercel.app%2Fapi%3Fusername%3DGit-Yuya%26locale%3Den%26show_icons%3Dtrue%26rank_icon%3Dgithub%26include_all_commits%3Dfalse%26show%3Dreviews%252Cdiscussions_started%252Cdiscussions_answered%252Cprs_merged%26number_format%3Dlong%26theme%3Ddefault%26title_color%3Dffffff%26text_color%3Dffffff%26icon_color%3Dffffff%26ring_color%3Dffffff%26bg_color%3D35%252C473B7B%252C3584A7%252C30D2BE%26border_radius%3D10%26line_height%3D25%26card_width%3D420&nonce=50e11555666724f687ad1cdcdcd31569d12502a4fae69d5a7771eaa78260574f"></noscript><div class=auto-redirect><div class=spinner-wrapper><div id=spinner class=spinner><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div><div class=spinner-bar></div></div><div id=check class=check-icon><svg width="20" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24 5.37258 24 0 18.6274.0 12 0 5.37258 5.37258.0 12 0 18.6274.0 24 5.37258 24 12zM17.2955 9.7955 18.091 9 16.5 7.40901 15.7045 8.2045 9.75 14.159 8.2955 12.7045 7.5 11.909 5.90901 13.5 6.7045 14.2955 8.9545 16.5455C9.39384 16.9848 10.1062 16.9848 10.5455 16.5455l6.75-6.75z" fill="var(--foreground-color)" /></svg></div></div><h1 id=auth-status data-status=authenticating>Authenticat<span class=word-end-wrapper>
-<span class=authenticating><span>ing</span></span><span class=authenticated><span>e</span><span>d</span></span></span></h1></div></div><div id=bottom-section><div class="sso"><p id=auto-redirect-backup class=auto-redirect-backup>If you aren't automatically redirected, <a href="https://vercel.com/sso-api?url=https%3A%2F%2Fgithub-readme-stats-yuyas-projects-f420a9eb.vercel.app%2Fapi%3Fusername%3DGit-Yuya%26locale%3Den%26show_icons%3Dtrue%26rank_icon%3Dgithub%26include_all_commits%3Dfalse%26show%3Dreviews%252Cdiscussions_started%252Cdiscussions_answered%252Cprs_merged%26number_format%3Dlong%26theme%3Ddefault%26title_color%3Dffffff%26text_color%3Dffffff%26icon_color%3Dffffff%26ring_color%3Dffffff%26bg_color%3D35%252C473B7B%252C3584A7%252C30D2BE%26border_radius%3D10%26line_height%3D25%26card_width%3D420&nonce=50e11555666724f687ad1cdcdcd31569d12502a4fae69d5a7771eaa78260574f">click here</a></p></div></div></div></div><div class=footer><a href="https://vercel.com/security?utm_source=protection" target=_blank rel=noopener>Vercel Authentication</a></div></div><script>(function(){var form=document.querySelector('form.password');if(form){var button=form.querySelector('button.submit');function onSubmit(e){form.classList.add("submitting");button.disabled=true;}
-form.addEventListener('submit',onSubmit);}
-function showCheckIconWhenVercelJwtIsSet(){fetch('/.well-known/vercel-user-meta').then((response)=>{if(response.status===200){document.getElementById('spinner').classList.add('disappear')
-document.getElementById('check').classList.add('appear')
-document.getElementById('auth-status').setAttribute('data-status','authenticated')}else{showCheckIconWhenVercelJwtIsSet()}})}
-document.addEventListener("DOMContentLoaded",function(){window.location.href="https://vercel.com/sso-api?url=https%3A%2F%2Fgithub-readme-stats-yuyas-projects-f420a9eb.vercel.app%2Fapi%3Fusername%3DGit-Yuya%26locale%3Den%26show_icons%3Dtrue%26rank_icon%3Dgithub%26include_all_commits%3Dfalse%26show%3Dreviews%252Cdiscussions_started%252Cdiscussions_answered%252Cprs_merged%26number_format%3Dlong%26theme%3Ddefault%26title_color%3Dffffff%26text_color%3Dffffff%26icon_color%3Dffffff%26ring_color%3Dffffff%26bg_color%3D35%252C473B7B%252C3584A7%252C30D2BE%26border_radius%3D10%26line_height%3D25%26card_width%3D420&nonce=50e11555666724f687ad1cdcdcd31569d12502a4fae69d5a7771eaa78260574f";showCheckIconWhenVercelJwtIsSet()
-document.getElementById('auto-redirect-backup').style.visibility='hidden';});})();</script>
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
+
+        
+        <defs>
+          <linearGradient
+            id="gradient"
+            gradientTransform="rotate(35)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0%" stop-color="#473B7B" />,<stop offset="50%" stop-color="#3584A7" />,<stop offset="100%" stop-color="#30D2BE" />
+          </linearGradient>
+        </defs>
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="10"
+          height="99%"
+          stroke="#e4e2e2"
+          width="436"
+          fill="url(#gradient)"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Yuya Suda's GitHub Stats</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle"
+          transform="translate(367, 97.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          
+        <svg x="-38" y="-30" height="66" width="66" aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" data-testid="github-rank-icon">
+          <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+        </svg>
+      
+        </g>
+      </g>
+    <svg x="0" y="0">
+      <g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Stars Earned:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="stars"
+      >19</text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Commits (last year):</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="commits"
+      >375</text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total PRs:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="prs"
+      >83</text>
+    </g>
+  </g><g transform="translate(0, 75)">
+    <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M5.45 5.154A4.25 4.25 0 0 0 9.25 7.5h1.378a2.251 2.251 0 1 1 0 1.5H9.25A5.734 5.734 0 0 1 5 7.123v3.505a2.25 2.25 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.95-.218ZM4.25 13.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm8.5-4.5a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5ZM5 3.25a.75.75 0 1 0 0 .005V3.25Z" />
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total PRs Merged:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="prs_merged"
+      >82</text>
+    </g>
+  </g><g transform="translate(0, 100)">
+    <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.824 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total PRs Reviewed:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="reviews"
+      >5</text>
+    </g>
+  </g><g transform="translate(0, 125)">
+    <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Issues:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="issues"
+      >36</text>
+    </g>
+  </g><g transform="translate(0, 150)">
+    <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M1.75 1h8.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 10.25 10H7.061l-2.574 2.573A1.458 1.458 0 0 1 2 11.543V10h-.25A1.75 1.75 0 0 1 0 8.25v-5.5C0 1.784.784 1 1.75 1ZM1.5 2.75v5.5c0 .138.112.25.25.25h1a.75.75 0 0 1 .75.75v2.19l2.72-2.72a.749.749 0 0 1 .53-.22h3.5a.25.25 0 0 0 .25-.25v-5.5a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13 2a.25.25 0 0 0-.25-.25h-.5a.75.75 0 0 1 0-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0 1 14.25 12H14v1.543a1.458 1.458 0 0 1-2.487 1.03L9.22 12.28a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l2.22 2.22v-2.19a.75.75 0 0 1 .75-.75h1a.25.25 0 0 0 .25-.25Z" />
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Discussions Started:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="discussions_started"
+      >0</text>
+    </g>
+  </g><g transform="translate(0, 175)">
+    <g class="stagger" style="animation-delay: 1500ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" />
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Total Discussions Answered:</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="discussions_answered"
+      >0</text>
+    </g>
+  </g><g transform="translate(0, 200)">
+    <g class="stagger" style="animation-delay: 1650ms" transform="translate(25, 0)">
+      
+    <svg data-testid="icon" class="icon" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+      <path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"/>
+    </svg>
+  
+      <text class="stat  bold" x="25" y="12.5">Contributed to (last year):</text>
+      <text
+        class="stat  bold"
+        x="219.01"
+        y="12.5"
+        data-testid="contribs"
+      >5</text>
+    </g>
+  </g>
+    </svg>
+  
+        </g>
+      </svg>
+    
