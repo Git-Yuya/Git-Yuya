@@ -27,12 +27,12 @@ jobs:
           curl -o profile-assets/skills.svg "https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,ts,react,vite,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,visualstudio,vscode,aws,azure,windows,linux,docker,git,github,githubactions"
 
           # --- 3. Stats & Langs & Trophy ---
-          curl -o profile-assets/github-stats.svg "https://github-readme-stats-yuyas-projects-f420a9eb.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420"
-          curl -o profile-assets/top-langs.svg "https://github-readme-stats-yuyas-projects-f420a9eb.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330"
+          curl -o profile-assets/github-stats.svg "https://github-readme-stats-six-sepia-36.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420"
+          curl -o profile-assets/top-langs.svg "https://github-readme-stats-six-sepia-36.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330"
           curl -o profile-assets/trophy.svg "https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5"
 
           # --- 4. Repo Pins ---
-          BASE_URL="https://github-readme-stats-yuyas-projects-f420a9eb.vercel.app/api/pin/?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE"
+          BASE_URL="https://github-readme-stats-six-sepia-36.vercel.app/api/pin/?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE"
 
           curl -o profile-assets/pin-Git-Yuya.github.io.svg "$BASE_URL&repo=Git-Yuya.github.io"
           curl -o profile-assets/pin-atcoder.svg "$BASE_URL&repo=atcoder"
