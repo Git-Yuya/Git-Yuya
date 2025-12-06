@@ -15,47 +15,72 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Create directory
-        run: mkdir -p profile-assets
-
-      - name: Download Images
+      - name: Download Images with Validation
         run: |
+          # --- 設定: 保存先ディレクトリ ---
+          DEST_DIR="profile-assets"
+          mkdir -p "$DEST_DIR"
+          
+          # -- 関数定義: SVG検証付きダウンロード ---
+          download_svg() {
+            local url="$1"
+            local filename="$2"
+            local dest="$DEST_DIR/$filename"
+            local temp="temp_download.svg"
+
+            # 一時ファイルにダウンロード
+            curl -sL "$url" -o "$temp"
+
+            # 検証: ファイルの中に<svg>タグが含まれているか確認
+            if grep -q "<svg" "$temp"; then
+              mv "$temp" "$dest"
+              echo "✅ [OK] Downloaded and validated: $dest"
+            else
+              echo "⚠️ [SKIP] Invalid SVG content from: $url. Keeping existing file: $dest"
+              rm -f "$temp"
+            fi
+          }
+
           # --- 1. Typograssy ---
-          curl -o profile-assets/typograssy.svg "https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=002642&l1=0077cc&l2=44aaff&l3=88ccff&l4=bbddff&bg=000000&frame=ffffff&speed=100&comment="
+          download_svg "https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=002642&l1=0077cc&l2=44aaff&l3=88ccff&l4=bbddff&bg=000000&frame=ffffff&speed=100&comment=" "typograssy.svg"
 
           # --- 2. Skills ---
-          curl -o profile-assets/skills.svg "https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,java,js,ts,react,vite,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,visualstudio,vscode,aws,azure,windows,linux,docker,git,github,githubactions"
+          download_svg "https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,js,ts,threejs,react,vite,vercel,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,vscode,aws,azure,windows,linux,docker,git,github,githubactions" "skills.svg"
 
           # --- 3. Stats & Langs & Trophy ---
-          curl -o profile-assets/github-stats.svg "https://github-readme-stats-six-sepia-36.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420"
-          curl -o profile-assets/top-langs.svg "https://github-readme-stats-six-sepia-36.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330"
-          curl -o profile-assets/trophy.svg "https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5"
+          download_svg "https://github-readme-stats-six-sepia-36.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420" "github-stats.svg"
+          download_svg "https://github-readme-stats-six-sepia-36.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330" "top-langs.svg"
+          download_svg "https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" "trophy.svg"
 
           # --- 4. Repo Pins ---
           BASE_URL="https://github-readme-stats-six-sepia-36.vercel.app/api/pin/?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE"
 
-          curl -o profile-assets/pin-Git-Yuya.github.io.svg "$BASE_URL&repo=Git-Yuya.github.io"
-          curl -o profile-assets/pin-atcoder.svg "$BASE_URL&repo=atcoder"
-          curl -o profile-assets/pin-cs50-intro-to-cs.svg "$BASE_URL&repo=cs50-intro-to-cs"
-          curl -o profile-assets/pin-gci.svg "$BASE_URL&repo=gci"
-          curl -o profile-assets/pin-dl-lecture-competition.svg "$BASE_URL&repo=dl-lecture-competition"
-          curl -o profile-assets/pin-lecture-ai-engineering.svg "$BASE_URL&repo=lecture-ai-engineering"
-          curl -o profile-assets/pin-lecture-survey-dashboard.svg "$BASE_URL&repo=lecture-survey-dashboard"
-          curl -o profile-assets/pin-simplechat.svg "$BASE_URL&repo=simplechat"
-          curl -o profile-assets/pin-rag-chatbot.svg "$BASE_URL&repo=rag-chatbot"
-          curl -o profile-assets/pin-tokyo-2020-olympics-aquatics.svg "$BASE_URL&repo=tokyo-2020-olympics-aquatics"
-          curl -o profile-assets/pin-swimming-comp-score-calculation.svg "$BASE_URL&repo=swimming-comp-score-calculation"
-          curl -o profile-assets/pin-walking-time-prediction.svg "$BASE_URL&repo=walking-time-prediction"
-          curl -o profile-assets/pin-pedestrian-travel-time.svg "$BASE_URL&repo=pedestrian-travel-time"
-          curl -o profile-assets/pin-scramble-crossing-simulation.svg "$BASE_URL&repo=scramble-crossing-simulation"
-          curl -o profile-assets/pin-ubiquitous-projection.svg "$BASE_URL&repo=ubiquitous-projection"
-          curl -o profile-assets/pin-parallel-processing.svg "$BASE_URL&repo=parallel-processing"
+          download_svg "$BASE_URL&repo=Git-Yuya.github.io" "pin-Git-Yuya.github.io.svg"
+          download_svg "$BASE_URL&repo=atcoder" "pin-atcoder.svg"
+          download_svg "$BASE_URL&repo=cs50-intro-to-cs" "pin-cs50-intro-to-cs.svg"
+          download_svg "$BASE_URL&repo=gci" "pin-gci.svg"
+          download_svg "$BASE_URL&repo=dl-lecture-competition" "pin-dl-lecture-competition.svg"
+          download_svg "$BASE_URL&repo=lecture-ai-engineering" "pin-lecture-ai-engineering.svg"
+          download_svg "$BASE_URL&repo=lecture-survey-dashboard" "pin-lecture-survey-dashboard.svg"
+          download_svg "$BASE_URL&repo=simplechat" "pin-simplechat.svg"
+          download_svg "$BASE_URL&repo=rag-chatbot" "pin-rag-chatbot.svg"
+          download_svg "$BASE_URL&repo=tokyo-2020-olympics-aquatics" "pin-tokyo-2020-olympics-aquatics.svg"
+          download_svg "$BASE_URL&repo=swimming-comp-score-calculation" "pin-swimming-comp-score-calculation.svg"
+          download_svg "$BASE_URL&repo=walking-time-prediction" "pin-walking-time-prediction.svg"
+          download_svg "$BASE_URL&repo=pedestrian-travel-time" "pin-pedestrian-travel-time.svg"
+          download_svg "$BASE_URL&repo=scramble-crossing-simulation" "pin-scramble-crossing-simulation.svg"
+          download_svg "$BASE_URL&repo=ubiquitous-projection" "pin-ubiquitous-projection.svg"
+          download_svg "$BASE_URL&repo=parallel-processing" "pin-parallel-processing.svg"
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-assets/*.svg
-          if git commit -m "Update profile assets"; then
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Update profile assets"
             git push
+          else
+            echo "No changes to commit."
           fi
