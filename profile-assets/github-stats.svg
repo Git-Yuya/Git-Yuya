@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yuya Suda's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 19, Total Commits  (last year) : 377, Total PRs: 86, Total PRs Merged: 85, Total PRs Reviewed: 6, Total Issues: 37, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 6</desc>
+        <desc id="descId">Total Stars Earned: 19, Total Commits  (last year) : 382, Total PRs: 87, Total PRs Merged: 86, Total PRs Reviewed: 8, Total Issues: 37, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 6</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 116.95348540086678;
+        stroke-dashoffset: 115.17915051736398;
       }
     }
   
@@ -187,7 +187,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >377</text>
+      >382</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -202,7 +202,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >86</text>
+      >87</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -217,7 +217,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >85</text>
+      >86</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -232,7 +232,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >6</text>
+      >8</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
