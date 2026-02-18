@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Yuya Suda's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 19, Total Commits  (last year) : 475, Total PRs: 96, Total PRs Merged: 94, Total PRs Reviewed: 17, Total Issues: 44, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 5</desc>
+        <desc id="descId">Total Stars Earned: 19, Total Commits  (last year) : 486, Total PRs: 98, Total PRs Merged: 96, Total PRs Reviewed: 18, Total Issues: 46, Total Discussions Started: 0, Total Discussions Answered: 0, Contributed to (last year): 5</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 105.2477790913207;
+        stroke-dashoffset: 103.60744697008018;
       }
     }
   
@@ -187,7 +187,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >475</text>
+      >486</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -202,7 +202,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >96</text>
+      >98</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -217,7 +217,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs_merged"
-      >94</text>
+      >96</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
@@ -232,7 +232,7 @@
         x="219.01"
         y="12.5"
         data-testid="reviews"
-      >17</text>
+      >18</text>
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
@@ -247,7 +247,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >44</text>
+      >46</text>
     </g>
   </g><g transform="translate(0, 150)">
     <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
