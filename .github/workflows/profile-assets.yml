@@ -17,26 +17,27 @@ jobs:
 
       - name: Download Images with Validation
         run: |
-          # --- 設定: 保存先ディレクトリ ---
+          # --- 共通設定 ---
           DEST_DIR="profile-assets"
+          USERNAME="Git-Yuya"
+          STATS_BASE="https://github-readme-stats-six-sepia-36.vercel.app"
+          THEME="theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE"
           mkdir -p "$DEST_DIR"
-          
-          # -- 関数定義: SVG検証付きダウンロード ---
-          download_svg() {
-            local url="$1"
-            local filename="$2"
-            local dest="$DEST_DIR/$filename"
-            local temp="temp_download.svg"
 
-            # 一時ファイルにダウンロード
+          # --- 関数定義: SVG検証付きダウンロード ---
+          download_svg() {
+            local url="$1" filename="$2"
+            local dest="$DEST_DIR/$filename"
+            local temp
+            temp=$(mktemp)
+
             curl -sL "$url" -o "$temp"
 
-            # 検証: ファイルの中に<svg>タグが含まれているか確認
             if grep -q "<svg" "$temp"; then
               mv "$temp" "$dest"
-              echo "✅ [OK] Downloaded and validated: $dest"
+              echo "✅ [OK] $dest"
             else
-              echo "⚠️ [SKIP] Invalid SVG content from: $url. Keeping existing file: $dest"
+              echo "⚠️ [SKIP] Invalid SVG: $url"
               rm -f "$temp"
             fi
           }
@@ -45,32 +46,45 @@ jobs:
           download_svg "https://typograssy.deno.dev/api?text=Welcome%20to%20my%20profile!%20&l0=002642&l1=0077cc&l2=44aaff&l3=88ccff&l4=bbddff&bg=000000&frame=ffffff&speed=100&comment=" "typograssy.svg"
 
           # --- 2. Skills ---
-          download_svg "https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,js,ts,threejs,react,vite,vercel,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,vscode,aws,azure,windows,linux,docker,git,github,githubactions" "skills.svg"
+          download_svg "https://skillicons.dev/icons?theme=dark&perline=12&i=py,pytorch,sklearn,tensorflow,django,flask,fastapi,opencv,qt,matlab,c,cpp,js,ts,threejs,react,vite,vercel,html,css,bootstrap,tailwind,latex,md,sqlite,postgres,mysql,aws,azure,gcp,windows,linux,docker,git,github,githubactions" "skills.svg"
 
           # --- 3. Stats & Langs & Trophy ---
-          download_svg "https://github-readme-stats-six-sepia-36.vercel.app/api?username=Git-Yuya&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&ring_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&line_height=25&card_width=420" "github-stats.svg"
-          download_svg "https://github-readme-stats-six-sepia-36.vercel.app/api/top-langs/?username=Git-Yuya&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE&border_radius=10&card_width=330" "top-langs.svg"
-          download_svg "https://trophygh.kolioaris.xyz/?username=Git-Yuya&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" "trophy.svg"
+          download_svg "$STATS_BASE/api?username=$USERNAME&locale=en&show_icons=true&rank_icon=github&include_all_commits=false&show=reviews,discussions_started,discussions_answered,prs_merged&number_format=long&$THEME&ring_color=ffffff&border_radius=10&line_height=25&card_width=420" "github-stats.svg"
+          download_svg "$STATS_BASE/api/top-langs/?username=$USERNAME&locale=en&show_icons=true&size_weight=0.5&count_weight=0.5&langs_count=20&layout=compact&$THEME&border_radius=10&card_width=330" "top-langs.svg"
+          download_svg "https://trophygh.kolioaris.xyz/?username=$USERNAME&theme=algolia&no-bg=false&no-frame=false&column=5&row=2&margin-w=5&margin-h=5" "trophy.svg"
 
           # --- 4. Repo Pins ---
-          BASE_URL="https://github-readme-stats-six-sepia-36.vercel.app/api/pin/?username=Git-Yuya&theme=default&title_color=ffffff&text_color=ffffff&icon_color=ffffff&bg_color=35,473B7B,3584A7,30D2BE"
+          PIN_BASE="$STATS_BASE/api/pin/?$THEME"
 
-          download_svg "$BASE_URL&repo=Git-Yuya.github.io" "pin-Git-Yuya.github.io.svg"
-          download_svg "$BASE_URL&repo=atcoder" "pin-atcoder.svg"
-          download_svg "$BASE_URL&repo=cs50-intro-to-cs" "pin-cs50-intro-to-cs.svg"
-          download_svg "$BASE_URL&repo=gci" "pin-gci.svg"
-          download_svg "$BASE_URL&repo=dl-lecture-competition" "pin-dl-lecture-competition.svg"
-          download_svg "$BASE_URL&repo=lecture-ai-engineering" "pin-lecture-ai-engineering.svg"
-          download_svg "$BASE_URL&repo=lecture-survey-dashboard" "pin-lecture-survey-dashboard.svg"
-          download_svg "$BASE_URL&repo=simplechat" "pin-simplechat.svg"
-          download_svg "$BASE_URL&repo=rag-chatbot" "pin-rag-chatbot.svg"
-          download_svg "$BASE_URL&repo=tokyo-2020-olympics-aquatics" "pin-tokyo-2020-olympics-aquatics.svg"
-          download_svg "$BASE_URL&repo=swimming-comp-score-calculation" "pin-swimming-comp-score-calculation.svg"
-          download_svg "$BASE_URL&repo=walking-time-prediction" "pin-walking-time-prediction.svg"
-          download_svg "$BASE_URL&repo=pedestrian-travel-time" "pin-pedestrian-travel-time.svg"
-          download_svg "$BASE_URL&repo=scramble-crossing-simulation" "pin-scramble-crossing-simulation.svg"
-          download_svg "$BASE_URL&repo=ubiquitous-projection" "pin-ubiquitous-projection.svg"
-          download_svg "$BASE_URL&repo=parallel-processing" "pin-parallel-processing.svg"
+          REPOS=(
+            Git-Yuya.github.io
+            atcoder
+            cs50-intro-to-cs
+            gci
+            dl-lecture-competition
+            lecture-ai-engineering
+            simplechat
+            lecture-survey-dashboard
+            rag-chatbot
+            tokyo-2020-olympics-aquatics
+            swimming-comp-score-calculation
+            walking-time-prediction
+            pedestrian-travel-time
+            scramble-crossing-simulation
+            ubiquitous-projection
+            parallel-processing
+          )
+          for repo in "${REPOS[@]}"; do
+            download_svg "$PIN_BASE&username=$USERNAME&repo=$repo" "pin-$repo.svg"
+          done
+
+          MATSUOLAB_REPOS=(
+            AIE-DXproject_1_front
+            AIE-DXproject_1_back
+          )
+          for repo in "${MATSUOLAB_REPOS[@]}"; do
+            download_svg "$PIN_BASE&username=matsuolab&repo=$repo" "pin-$repo.svg"
+          done
 
       - name: Commit & Push
         run: |
