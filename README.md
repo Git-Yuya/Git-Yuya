@@ -24,9 +24,6 @@
     <a href="https://github.com/Git-Yuya/Git-Yuya.github.io">
         <img src="./profile-assets/pin-Git-Yuya.github.io.svg" alt="Git-Yuya.github.io repo" width=288 />
     </a>
-    <a href="https://github.com/Git-Yuya/atcoder">
-        <img src="./profile-assets/pin-atcoder.svg" alt="atcoder repo" width=288 />
-    </a>
     <a href="https://github.com/Git-Yuya/cs50-intro-to-cs">
         <img src="./profile-assets/pin-cs50-intro-to-cs.svg" alt="cs50-intro-to-cs repo" width=288 />
     </a>
@@ -42,6 +39,12 @@
     <a href="https://github.com/Git-Yuya/lecture-survey-dashboard">
         <img src="./profile-assets/pin-lecture-survey-dashboard.svg" alt="lecture-survey-dashboard repo" width=288 />
     </a>
+    <!-- <a href="https://github.com/matsuolab/AIE-DXproject_1_front">
+        <img src="./profile-assets/pin-AIE-DXproject_1_front.svg" alt="AIE-DXproject_1_front repo" width=288 />
+    </a>
+    <a href="https://github.com/matsuolab/AIE-DXproject_1_back">
+        <img src="./profile-assets/pin-AIE-DXproject_1_back.svg" alt="AIE-DXproject_1_back repo" width=288 />
+    </a> -->
     <a href="https://github.com/Git-Yuya/simplechat">
         <img src="./profile-assets/pin-simplechat.svg" alt="simplechat repo" width=288 />
     </a>
@@ -71,5 +74,8 @@
     </a>
     <a href="https://github.com/Git-Yuya/parallel-processing">
         <img src="./profile-assets/pin-parallel-processing.svg" alt="parallel-processing repo" width=288 />
+    </a>
+    <a href="https://github.com/Git-Yuya/atcoder">
+        <img src="./profile-assets/pin-atcoder.svg" alt="atcoder repo" width=288 />
     </a>
 </p>
