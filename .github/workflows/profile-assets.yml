@@ -25,6 +25,9 @@ jobs:
           mkdir -p "$DEST_DIR"
 
           # --- 関数定義: SVG検証付きダウンロード ---
+          MIN_SIZE=2000  # 正常なSVGの最小サイズ (bytes)
+          ERROR_PATTERNS="Something went wrong|PAT_1|Rate limit|error-text"
+
           download_svg() {
             local url="$1" filename="$2"
             local dest="$DEST_DIR/$filename"
@@ -33,13 +36,19 @@ jobs:
 
             curl -sL "$url" -o "$temp"
 
-            if grep -q "<svg" "$temp"; then
+            if ! grep -q "<svg" "$temp"; then
+              echo "⚠️ [SKIP] Not an SVG: $url"
+            elif grep -qiE "$ERROR_PATTERNS" "$temp"; then
+              echo "⚠️ [SKIP] Error content detected: $url"
+            elif [ "$(wc -c < "$temp")" -lt "$MIN_SIZE" ]; then
+              echo "⚠️ [SKIP] File too small (< ${MIN_SIZE}B): $url"
+            else
               mv "$temp" "$dest"
               echo "✅ [OK] $dest"
-            else
-              echo "⚠️ [SKIP] Invalid SVG: $url"
-              rm -f "$temp"
+              return
             fi
+
+            rm -f "$temp"
           }
 
           # --- 1. Typograssy ---
