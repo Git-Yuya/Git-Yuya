@@ -39,12 +39,12 @@
     <a href="https://github.com/Git-Yuya/lecture-survey-dashboard">
         <img src="./profile-assets/pin-lecture-survey-dashboard.svg" alt="lecture-survey-dashboard repo" width=288 />
     </a>
-    <!-- <a href="https://github.com/matsuolab/AIE-DXproject_1_front">
+    <a href="https://github.com/matsuolab/AIE-DXproject_1_front">
         <img src="./profile-assets/pin-AIE-DXproject_1_front.svg" alt="AIE-DXproject_1_front repo" width=288 />
     </a>
     <a href="https://github.com/matsuolab/AIE-DXproject_1_back">
         <img src="./profile-assets/pin-AIE-DXproject_1_back.svg" alt="AIE-DXproject_1_back repo" width=288 />
-    </a> -->
+    </a>
     <a href="https://github.com/Git-Yuya/simplechat">
         <img src="./profile-assets/pin-simplechat.svg" alt="simplechat repo" width=288 />
     </a>
