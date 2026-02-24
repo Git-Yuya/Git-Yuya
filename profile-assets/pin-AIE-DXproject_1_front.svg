@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="150"
-        viewBox="0 0 400 150"
+        height="120"
+        viewBox="0 0 400 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -110,10 +110,10 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">&#26494;&#23614;&#30740;</tspan><tspan dy="1.2em" x="25">AIE-DX&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;</tspan><tspan dy="1.2em" x="25">1（&#26368;&#32066;&#35506;&#38988; PJT08&#23550;&#24540;）</tspan>
+      <tspan dy="1.2em" x="25">&#26494;&#23614;&#30740;AIE-DX&#12503;&#12525;&#12472;&#12455;&#12463;&#12488;１&#12304;&#12501;&#12525;&#12531;&#12488;&#12456;&#12531;&#12489;&#12305;</tspan>
     </text>
 
-    <g transform="translate(30, 75)">
+    <g transform="translate(30, 45)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
       <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#3178c6" />
