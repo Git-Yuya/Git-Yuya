@@ -3,7 +3,7 @@
 
 ## 👋 Self Introduction
 - 🗾 I'm from Tokyo, Japan.
-- 🔭 I’m currently a master's student.
+- 🔭 I’m a software engineer.
 - 🌱 I'm interested in machine learning, generative AI, and cloud services.
 - 🎈 I like working out, running and swimming.
 
